@@ -1,12 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "https://nx-proto-mw-home-33en1kq9b-techfxs-projects.vercel.app/"
-    },
-    {
       "source": "/product",
       "destination": "https://nx-proto-mw-jeb3fowzn-techfxs-projects.vercel.app/"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://nx-proto-mw-home-33en1kq9b-techfxs-projects.vercel.app/:path*"
     }
   ]
 }
